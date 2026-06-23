@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VSwift Logistics Pvt. Ltd. — Freight & Forwarding</title>
+  <meta name="description" content="VSwift Logistics Private Limited — Swift freight forwarding, customs clearance, and supply chain solutions across India and worldwide."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span>☎ Landline: <a href="tel:01141087896">011-4108-7896</a></span>
+      <span class="topbar-divider">|</span>
+      <span>📱 Mobile: <a href="tel:+919953008815">+91 9953008815</a></span>
+      <span class="topbar-divider">|</span>
+      <span>✉ <a href="mailto:vkm@vswiftlogic.com">vkm@vswiftlogic.com</a></span>
+      <span class="topbar-divider">|</span>
+      <span>🌐 www.vswiftlogic.com</span>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="logo">
+        <img src="logo.png" alt="VSwift Logistics" class="logo-img">
+        <div class="nav-name">
+          <span class="nav-name-main">VSWIFT</span>
+          <span class="nav-name-sub">Logistics Private Limited</span>
+        </div>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#coverage">Coverage</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Leadership</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO — FULLSCREEN SLIDESHOW WITH TEXT OVERLAY -->
+  <section class="hero" id="home">
+    <!-- Background images only — no text on the images -->
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image:url('slides/slide1.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('slides/slide2.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('slides/slide3.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('slides/slide4.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('slides/slide5.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('slides/slide6.jpg')"></div>
+    </div>
+    <!-- Dark overlay so text is readable -->
+    <div class="hero-overlay"></div>
+
+    <!-- Text content overlaid on top of slideshow -->
+    <div class="hero-content">
+      <p class="hero-eyebrow">New Delhi · Pan India · Worldwide</p>
+      <h1 class="hero-headline">
+        Custom Clearance &amp;<br/>
+        <span class="hero-accent">Global Freight Solutions</span>
+      </h1>
+      <p class="hero-sub">Moving cargo across borders with speed, precision and compliance — delivered on time, every time.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Request a Quote</a>
+        <a href="#services" class="btn-ghost">Our Services ↓</a>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">✈ Air Freight</span>
+        <span class="badge">🚢 Sea Freight</span>
+        <span class="badge">🚛 Road Transport</span>
+        <span class="badge">📋 Customs CHA</span>
+        <span class="badge">🏭 Warehousing</span>
+        <span class="badge">🔗 Supply Chain</span>
+      </div>
+    </div>
+
+    <!-- Dot navigation -->
+    <div class="hero-slide-controls">
+      <button class="fdot active" data-fs="0"></button>
+      <button class="fdot" data-fs="1"></button>
+      <button class="fdot" data-fs="2"></button>
+      <button class="fdot" data-fs="3"></button>
+      <button class="fdot" data-fs="4"></button>
+      <button class="fdot" data-fs="5"></button>
+    </div>
+    <!-- Progress bar at bottom -->
+    <div class="frame-progress"><div class="frame-progress-bar" id="frameProgress"></div></div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eye">What We Do</p>
+        <h2>End-to-End Logistics Solutions</h2>
+        <p class="section-sub">From first mile to last mile — we handle every link in your supply chain.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon-wrap"><span class="service-icon">✈</span></div>
+          <h3>Air Freight</h3>
+          <p>Time-critical shipments delivered fast. We work with leading airlines to secure competitive rates and priority slots for your cargo.</p>
+          <ul><li>Import &amp; Export</li><li>Dangerous Goods (DG)</li><li>Door-to-Door Delivery</li></ul>
+          <a href="#contact" class="card-cta">Get Quote →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon-wrap"><span class="service-icon">🚢</span></div>
+          <h3>Sea Freight</h3>
+          <p>FCL and LCL shipments handled with care. Cost-effective ocean freight solutions for bulk and containerized cargo worldwide.</p>
+          <ul><li>FCL / LCL</li><li>Break Bulk Cargo</li><li>Port-to-Port &amp; Door-to-Door</li></ul>
+          <a href="#contact" class="card-cta">Get Quote →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon-wrap"><span class="service-icon">🚛</span></div>
+          <h3>Road Transport</h3>
+          <p>Pan-India road freight with real-time tracking. FTL and LTL options for domestic movement of goods across all major routes.</p>
+          <ul><li>FTL / LTL</li><li>Express Delivery</li><li>Pan-India Coverage</li></ul>
+          <a href="#contact" class="card-cta">Get Quote →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon-wrap"><span class="service-icon">📋</span></div>
+          <h3>Customs Clearance</h3>
+          <p>Licensed customs brokers ensuring smooth, compliant clearance at all major Indian ports and airports. Zero delays.</p>
+          <ul><li>Import &amp; Export Clearance</li><li>Documentation Support</li><li>Duty Consultation</li></ul>
+          <a href="#contact" class="card-cta">Get Quote →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon-wrap"><span class="service-icon">🏭</span></div>
+          <h3>Warehousing</h3>
+          <p>Secure, strategically located warehouses with inventory management. Short and long-term storage solutions available.</p>
+          <ul><li>Bonded Warehousing</li><li>Inventory Management</li><li>Pick &amp; Pack</li></ul>
+          <a href="#contact" class="card-cta">Get Quote →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon-wrap"><span class="service-icon">🔗</span></div>
+          <h3>Supply Chain Management</h3>
+          <p>Full visibility and control of your supply chain. We coordinate all moving parts so you can focus on your core business.</p>
+          <ul><li>End-to-End Coordination</li><li>Vendor Management</li><li>Real-Time Tracking</li></ul>
+          <a href="#contact" class="card-cta">Get Quote →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eye">Why VSwift</p>
+        <h2>Your Cargo. Our Commitment.</h2>
+        <p class="section-sub">Speed, reliability, and personal attention on every shipment.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-item reveal"><div class="why-icon">⚡</div><h4>Speed at Every Step</h4><p>Fast quotes, faster clearances. We don't let paperwork slow your shipments down.</p></div>
+        <div class="why-item reveal"><div class="why-icon">🛡</div><h4>Fully Compliant</h4><p>Licensed freight forwarder and customs broker. All documentation handled correctly, every time.</p></div>
+        <div class="why-item reveal"><div class="why-icon">🌐</div><h4>Global Network</h4><p>Strong agent network across major trade lanes — USA, UAE, China, Europe, and Southeast Asia.</p></div>
+        <div class="why-item reveal"><div class="why-icon">📞</div><h4>Dedicated Support</h4><p>One point of contact for your entire shipment. No runaround, no guesswork.</p></div>
+        <div class="why-item reveal"><div class="why-icon">📦</div><h4>All Cargo Types</h4><p>From fragile goods to heavy machinery — we handle all types with equal care.</p></div>
+        <div class="why-item reveal"><div class="why-icon">💼</div><h4>Expert CHA Team</h4><p>Our in-house CHA expertise ensures every shipment clears customs without complications.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COVERAGE -->
+  <section class="coverage" id="coverage">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eye">Global Reach</p>
+        <h2>Countries We Serve</h2>
+        <p class="section-sub">Our global agent network spans all major trade corridors.</p>
+      </div>
+      <div class="countries-grid">
+        <div class="country-card reveal"><span class="flag">🇺🇸</span><span>USA</span></div>
+        <div class="country-card reveal"><span class="flag">🇦🇪</span><span>UAE</span></div>
+        <div class="country-card reveal"><span class="flag">🇨🇳</span><span>China</span></div>
+        <div class="country-card reveal"><span class="flag">🇨🇭</span><span>Switzerland</span></div>
+        <div class="country-card reveal"><span class="flag">🇩🇪</span><span>Germany</span></div>
+        <div class="country-card reveal"><span class="flag">🇬🇧</span><span>United Kingdom</span></div>
+        <div class="country-card reveal"><span class="flag">🇸🇬</span><span>Singapore</span></div>
+        <div class="country-card reveal"><span class="flag">🌍</span><span>Worldwide Network</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-text reveal">
+          <p class="section-eye">About Us</p>
+          <h2>Delhi-Based. India-Wide. World-Ready.</h2>
+          <p>VSwift Logistics Private Limited is a New Delhi-based freight forwarding and logistics company built on the belief that every shipment — big or small — deserves the same level of urgency and care.</p>
+          <p>We work with importers, exporters, manufacturers, and traders to simplify the complexities of international and domestic logistics. From booking cargo space to delivering at your doorstep, we own the entire process.</p>
+          <p>Our team brings deep industry knowledge, strong carrier relationships, and a commitment to transparency that sets us apart from larger, impersonal freight companies.</p>
+          <a href="#contact" class="btn-primary" style="margin-top:20px;display:inline-block;">Work With Us</a>
+        </div>
+        <div class="about-visual reveal">
+          <div class="about-logo-big"><span>V</span>SWIFT</div>
+          <p class="about-tagline">"Swift by name. Swift by nature."</p>
+          <p class="about-location">📍 Mahipalpur, New Delhi · Pan India · Worldwide</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP — single place for VKM details -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eye">Leadership</p>
+        <h2>Meet the Team Behind VSwift</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <div class="team-avatar"><div class="avatar-initials">VKM</div></div>
+          <div class="team-info">
+            <h3>Vinay Kumar Mishra</h3>
+            <span class="team-role">CHA &amp; Director</span>
+            <p>With extensive experience in customs clearance and freight forwarding, Mr. Mishra leads VSwift with a vision to deliver unparalleled logistics solutions across India and worldwide. As a licensed Customs House Agent, he brings deep expertise in compliance, documentation, and trade regulations.</p>
+            <div class="team-contacts">
+              <a href="tel:01141087896" class="team-contact-btn">☎ 011-4108-7896</a>
+              <a href="tel:+919953008815" class="team-contact-btn">📱 +91 9953008815</a>
+              <a href="mailto:vkm@vswiftlogic.com" class="team-contact-btn">✉ vkm@vswiftlogic.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eye">Get In Touch</p>
+        <h2>Request a Quote</h2>
+        <p class="section-sub">Tell us about your shipment and we'll get back within 24 hours.</p>
+      </div>
+      <div class="contact-inner">
+        <form class="contact-form reveal" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact"/>
+          <p style="display:none"><input name="bot-field"/></p>
+          <div class="form-row">
+            <div class="form-group"><label>Your Name *</label><input type="text" name="name" placeholder="Rajesh Kumar" required/></div>
+            <div class="form-group"><label>Company Name</label><input type="text" name="company" placeholder="Your Company Pvt. Ltd."/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Email Address *</label><input type="email" name="email" placeholder="you@company.com" required/></div>
+            <div class="form-group"><label>Phone Number *</label><input type="tel" name="phone" placeholder="+91 98765 43210" required/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Service Required</label>
+              <select name="service">
+                <option value="">Select a service</option>
+                <option>Air Freight</option><option>Sea Freight</option><option>Road Transport</option>
+                <option>Customs Clearance</option><option>Warehousing</option><option>Supply Chain Management</option>
+              </select>
+            </div>
+            <div class="form-group"><label>Route / Destination</label><input type="text" name="route" placeholder="e.g. Delhi to Dubai"/></div>
+          </div>
+          <div class="form-group full"><label>Message / Shipment Details</label><textarea name="message" rows="4" placeholder="Brief description of your cargo, weight, dimensions, timeline..."></textarea></div>
+          <button type="submit" class="btn-primary btn-submit">Send Enquiry →</button>
+        </form>
+        <div class="contact-info reveal">
+          <h3>Office Address</h3>
+          <div class="contact-item"><div class="c-icon">📍</div><div><p class="c-label">Address</p><p>Office No. 4, First Floor, North Wing L-8A,<br/>Pt. Jagannath Complex, Mahipalpur,<br/>New Delhi</p></div></div>
+          <div class="contact-item"><div class="c-icon">🌐</div><div><p class="c-label">Website</p><p>www.vswiftlogic.com</p></div></div>
+          <div class="contact-hours"><p class="c-label">Business Hours</p><p>Mon – Sat: 9:00 AM – 7:00 PM IST</p><p>Sun: By appointment</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo"><span>V</span>SWIFT</div>
+          <p>Swift by name. Swift by nature.<br/>Your trusted logistics partner.</p>
+        </div>
+        <div class="footer-links">
+          <p class="footer-head">Services</p>
+          <a href="#services">Air Freight</a><a href="#services">Sea Freight</a>
+          <a href="#services">Road Transport</a><a href="#services">Customs Clearance</a><a href="#services">Warehousing</a>
+        </div>
+        <div class="footer-links">
+          <p class="footer-head">Company</p>
+          <a href="#about">About Us</a><a href="#team">Leadership</a>
+          <a href="#why">Why VSwift</a><a href="#coverage">Coverage</a><a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <p class="footer-head">Contact Us</p>
+          <a href="mailto:vkm@vswiftlogic.com">✉ vkm@vswiftlogic.com</a>
+          <a href="tel:01141087896">☎ 011-4108-7896</a>
+          <a href="tel:+919953008815">📱 +91 9953008815</a>
+          <a href="#">📍 Mahipalpur, New Delhi</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VSwift Logistics Private Limited. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919953008815" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">💬</a>
+  <button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+
+  <form name="contact" netlify hidden><input type="text" name="name"><input type="email" name="email"></form>
+  <script src="script.js"></script>
+</body>
+</html>
